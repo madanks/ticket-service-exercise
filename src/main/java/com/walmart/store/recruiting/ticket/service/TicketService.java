@@ -32,4 +32,8 @@ public interface TicketService {
      */
     Optional<String> reserveSeats(String seatHoldId);
 
+	boolean checkOneExpiry(String id);
+
+	void checkAllExpire();
+
 }
